@@ -1,1 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.card {
+  border: 1px solid black;
+  height: 350px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+.topBox {
+  display: flex;
+  float: Left;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottomBox {
+  transform: rotate(180deg);
+  justify-content: left;
+  display: flex;
+  height: 25px;
+  width: 100%;
+}
+.bottomBox-content {
+  height: 20px;
+  width: 20px;
+}
